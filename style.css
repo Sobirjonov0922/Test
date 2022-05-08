@@ -23,6 +23,8 @@ ul {
 /* Header Start */
 .header {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     background: silver;
 }
 
@@ -51,4 +53,20 @@ ul {
     text-transform: uppercase;
 }
 
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    text-transform: capitalize;
+}
+
+.header__title {
+    font-size: 6vw;
+}
+
+.header__txt {
+    font-size: 2vw;
+}
 /* Header End */
